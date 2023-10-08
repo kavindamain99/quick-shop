@@ -1,0 +1,163 @@
+@use "./abstracts/" as *;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $fontFamily;
+  color: $txtColor;
+  font-size: $fontSizeNormal;
+  line-height: 1.5;
+  background-color: $bodyBg;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+img {
+  max-width: 100%;
+}
+/* ====== global styles any section can i use ====== */
+
+.container-div {
+  max-width: 968px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  //min-width: 1024px
+  @include breakpoint-up("xlarge") {
+    margin: 1rem auto;
+  }
+  @include breakpoint-up("xxlarge") {
+    max-width: 1200px;
+  }
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.mb {
+  margin-bottom: $spacing;
+
+  @include tablet {
+    margin-bottom: $mobileSpacing;
+  }
+}
+
+.title {
+  font-size: $fontSizeMedium;
+  font-weight: 700;
+}
+
+.txt-success {
+  color: $green;
+}
+
+.txt-danger {
+  color: $red;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+a,
+button {
+  line-height: inherit;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  color: #000;
+}
+button {
+  border: none;
+  outline: none;
+}
+
+a,
+button,
+img,
+input,
+span {
+  transition: all 0.3s ease 0s;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+input {
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  color: #2c2c2c;
+  border: 1px solid #e3e6e6;
+  background: transparent;
+  box-shadow: none;
+}
+
+.grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+input:focus {
+  background: transparent;
+}
+
+.button {
+  display: block;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100%;
+  background-color: #2c2c2c;
+  border-radius: 25px;
+  color: #fff;
+  padding: 0;
+  height: 50px;
+  line-height: 50px;
+  transition: all 0.5s ease;
+
+  &:hover {
+    background-color: #8624db;
+
+    color: #fff;
+  }
+}
+
+.greenColor {
+  color: #8624db;
+  font-weight: 600;
+}
+.redColor {
+  color: red;
+}

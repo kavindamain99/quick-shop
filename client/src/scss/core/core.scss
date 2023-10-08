@@ -1,0 +1,37 @@
+@use "./global";
+@use "./flex-grid";
+@use "./login";
+@use "./main-layout";
+
+@use "./dashbaord-wrapper";
+
+@use "./sidebar";
+
+@use "./summary-box";
+
+@use "./top-nav";
+
+@use "./user-list";
+
+@use "./box";
+
+@use "./loader";
+
+@use "./not-found";
+
+//
+@use "./add-product";
+
+@use "./add-category";
+
+@use "./products";
+
+@use "./user-list-item";
+
+@use "./profile";
+
+@use "./all-orders";
+
+@use "./process-order";
+
+@use "./reviews";

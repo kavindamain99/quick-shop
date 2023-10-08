@@ -1,0 +1,9 @@
+{"level":"info","message":"This is an info message.","timestamp":"2023-09-29T10:06:41.023Z"}
+{"level":"info","message":"This is an info message.","timestamp":"2023-09-29T10:09:11.370Z"}
+{"level":"error","message":"Product Successfully Inserted","meta":"additional info","timestamp":"2023-09-29T10:14:46.198Z"}
+{"level":"error","message":"Product Successfully Inserted","meta":"additional info","timestamp":"2023-09-29T10:17:25.442Z"}
+{"level":"error","message":"Product Successfully Inserted","meta":"additional info","timestamp":"2023-09-29T10:18:13.640Z"}
+{"level":"error","message":"Product Successfully Inserted","meta":"additional info","timestamp":"2023-09-29T10:19:09.637Z"}
+{"level":"error","message":"Product Successfully Inserted","meta":"additional info","timestamp":"2023-09-29T10:21:24.377Z"}
+{"level":"error","message":"An error occurred","meta":"additional error info","timestamp":"2023-09-29T10:36:33.721Z"}
+{"level":"error","message":"An error occurred","meta":"additional error info","timestamp":"2023-09-29T10:37:54.982Z"}
